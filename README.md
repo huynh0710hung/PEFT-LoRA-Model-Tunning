@@ -22,6 +22,6 @@ Configure tokenizer
 Generate text using pipeline
 
 ### Example
-pythonCopyprompt = "Your input prompt"
-result = pipeline(task="text-generation", model=model, tokenizer=tokenizer)(prompt)
+<code>pythonCopyprompt = "Your input prompt"</br>
+result = pipeline(task="text-generation", model=model, tokenizer=tokenizer)(prompt)</code>
 
